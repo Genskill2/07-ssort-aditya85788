@@ -11,8 +11,8 @@ max=arr[i];
 j=i;
 }
 }
-temp=arr[t];
-arr[t]=arr[n];
+temp=arr[j];
+arr[j]=arr[n];
 arr[n]=temp;
 }
 void ssort(int arr[], int l)
